@@ -153,8 +153,8 @@ function traceModule(impl, name)
 
 			if (this.flag) {
 				// print retval
-				//console.log("\nretval: " + retval);
-				//console.warn("\n*** exiting " + name);
+				console.log("\nretval: " + retval);
+				console.warn("\n*** exiting " + name);
 			}
 		}
 
@@ -176,6 +176,8 @@ setTimeout(function() { // avoid java.lang.ClassNotFoundException
 
 	Java.perform(function() {
   
+  		trace("b.d.a.a.b"); // Trace the Encrypted Application
+		trace("com.audiapp.crmdealer.activities.LoginActivity"); // Refers to AndroidMenifest.xml
 		// trace("com.target.utils.CryptoUtils");
 		trace("android.util.Log.v");
 		trace("android.util.Log.d");
