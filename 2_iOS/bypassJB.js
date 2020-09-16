@@ -1,3 +1,5 @@
+//frida -U -l bypassJB.js -f kr.lottedfs.Guide --no-pause
+
 if(ObjC.available){
 	send("\nbypassJB() is activated....\n\n")
 	var classHook = ObjC.classes.IntroViewController["- isJailbroken"];
