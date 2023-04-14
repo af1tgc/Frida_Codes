@@ -1,4 +1,4 @@
-# Frida_Codes
+# frida_codes
 
 How to Use
 
